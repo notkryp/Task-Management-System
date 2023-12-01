@@ -1,0 +1,39 @@
+.taskdetails{
+    margin-top: 12px;
+    background-color: #e1f6f9;
+    min-height: auto;
+    min-width: auto;
+    border-radius: 12px;
+    padding-bottom: 12px;
+
+}
+#newp{
+    padding: 24px 0 0 18px;
+    display: block;
+}
+#description{
+    display: block;
+    padding: 0 12px 0 18px;
+
+}
+.timeview{
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 18px;
+    gap: 12px;
+}
+
+#nextp2{
+    margin-left: 90px;
+}
+.buttonsAll{
+    width: auto;
+    justify-content: right;
+    display: flex;
+    margin-right:24px;
+    margin-bottom: 12px ;
+}
+.starttask{
+    background-color: #00abc5c0;
+
+}

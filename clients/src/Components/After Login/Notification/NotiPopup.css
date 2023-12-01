@@ -1,0 +1,13 @@
+.leftArrow{
+    cursor: pointer;
+}
+.fullNoti{
+    margin-top: 12px;
+    background-color: #F2F6FC;
+    height: auto;
+    border-radius:24px;
+    padding: 6px;
+}
+.Noti{
+    margin: 3px 12px;
+}

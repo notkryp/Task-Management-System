@@ -1,0 +1,27 @@
+.tskms_History-midTop {
+  position: absolute;
+  width: 66vw;
+  min-height: 90vh;
+  left: 380px;
+  top: 20px;
+  padding: 12px 36px;
+  background: #ffffff;
+  border-radius: 40px;
+}
+.tskms_History-midTop p {
+  display: flex;
+  justify-content: center;
+}
+.midbottom{
+    border: 1px solid black;
+}
+.tab-1{
+    margin-top: 12px;
+    background-color: #F2F6FC;
+    height: auto;
+    border-radius:24px;
+    padding: 6px 24px;
+    display: flex;
+    align-items: center;
+    gap: 600px;
+}

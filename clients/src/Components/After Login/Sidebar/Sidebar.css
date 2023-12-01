@@ -1,0 +1,123 @@
+.tskms_sidebar {
+    position: fixed;
+    width: 320px;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    background-color: #fff;
+  }
+  
+  .tskms_sidebar-miniMenu {
+    position: absolute;
+    width: 234px;
+    height: 300px;
+    left: 36px;
+    top: 280px;
+    background: #e1f6f9;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+  }
+  .sidemenu-item {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+  }
+  .links {
+    display: flex;
+    text-decoration: none;
+    color: #324B51;
+    align-items: center;
+    margin: 16px 0;
+    padding: 8px;
+  }
+  .links:hover {
+    /* background-color: #00abc5c0; */
+    /* margin: 12px 12px; */
+    border-radius: 6px;
+    color: #ffffff;
+  }
+  
+  .icon {
+    flex: 40%;
+    display: grid;
+    place-items: center;
+  }
+  .link-name {
+    flex: 60%;
+  }
+  .active {
+    background-color: #00abc5c0;
+    margin: 16px 12px;
+    border-radius: 6px;
+    color: #fff;
+  }
+   
+  .profile {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    justify-content: center;
+    align-items: center;
+    left: 95.15px;
+    display: flex;
+    border-radius: 100%;
+    top: 50px;
+    cursor: pointer;
+  }
+  
+
+  .name {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: 130px;
+    left: 75px;
+  }
+  
+  .designation {
+    top: 190px;
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    left: 75px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #727272;
+  }
+  .name h6 {
+    margin-left: 3px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .name img {
+    margin-left: 3px;
+    margin-top: 1px;
+  }
+  
+  .name h4 {
+    justify-content: center;
+    margin-left: 3px;
+    align-items: center;
+    font-size: 16px;
+    display: flex;
+  }
+  .logout{
+    /* border: 1px solid black; */
+    align-items: center;
+    /* justify-content: center; */
+    display: flex;
+    margin-top: 630px;
+    margin-left: 50px;
+    /* width: auto; */
+  }
+  #logout-btn{
+    width:200px;
+    gap: 12px;
+     background-color: #00abc5c0;
+  }

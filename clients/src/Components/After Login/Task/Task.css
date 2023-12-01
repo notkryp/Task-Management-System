@@ -1,0 +1,55 @@
+.tskms_task_mid {
+  position: absolute;
+  width: 66vw;
+  min-height: 90vh;
+  left: 380px;
+  top: 20px;
+  padding: 12px 36px;
+  background: #ffffff;
+  border-radius: 40px;
+}
+.tskms_task_mid-top {
+  display: flex;
+  align-items: center;
+}
+
+.tskms_task_mid-top #createtask {
+  position: absolute;
+  right: 36px;
+  background-color: #00abc5c0;
+  padding: 10px;
+  font-size: small;
+  border-radius: 12px;
+}
+#createtask:hover {
+  cursor: pointer;
+}
+.Task_table {
+  margin-top: 2rem;
+}
+
+.Task_table .heading_text {
+  font-weight: 600;
+  background-color: #e1f6f9;
+  border-bottom: 1px solid black;
+}
+.Task_table .Table_main {
+  border-radius: 24px;
+  background-color: #e1f6f9;
+}
+.tskms_task_mid-mid {
+  display: inline-block;
+  border-bottom: 1px solid black;
+  width: 100%;
+  justify-content: center;
+}
+.Task_table .Table_main .running {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.Task_table .Table_main .running p {
+  margin-left: 3px;
+}

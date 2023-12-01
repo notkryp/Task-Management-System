@@ -1,0 +1,54 @@
+.head{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    /* justify-content: center; */
+    align-items: center;
+
+}
+.Arrowleft{
+    margin-right: 24px;
+    cursor: pointer;
+}
+.allcontent{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: center;
+    background-color: #F2F6FC;
+    min-height: 20vh;
+    max-width: auto;
+    border-radius: 24px;
+}
+
+.profilepic{
+    /* border: 1px solid black; */
+    height:20px;
+    width:50px;
+    left: 50px;
+    top:85px;
+    position: absolute;
+
+}
+.rightcontent{
+    /* border: 1px solid black; */
+    height:auto;
+    width:500px;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+}
+#profilepic{
+    border-radius: 24px;
+    height:200px;
+    width: 200px;
+
+}
+.firstCSS{
+    /* border:1px solid black ; */
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    padding: 3px 6px;
+    gap: 6px;
+}

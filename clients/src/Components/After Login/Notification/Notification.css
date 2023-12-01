@@ -1,0 +1,29 @@
+.tskms_Notification-mid {
+  position: absolute;
+  width: 66vw;
+  min-height: 90vh;
+  left: 380px;
+  top: 20px;
+  padding: 12px 36px;
+  background: #ffffff;
+  border-radius: 40px;
+}
+
+.tskms_Notification-midTop h2 {
+  display: flex;
+  /* justify-content: center; */
+
+}
+
+.tskms_Notification-midTop #createnotification {
+    position: absolute;
+    right: 36px;
+    background-color: #00abc5c0;
+    padding: 10px;
+    font-size: small;
+    border-radius: 12px;
+  }
+
+  #createnotification:hover {
+    cursor: pointer;
+  }

@@ -1,0 +1,40 @@
+.pic-left img {
+  height: 200px;
+  width: 200px;
+  border-radius: 36px;
+}
+#profilepics {
+  width: 200px;
+  height: auto;
+  background-color: #00abc5c0;
+}
+.allContent {
+  display: flex;
+}
+.wholeRight {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+.password-form {
+  display: flex;
+  flex-direction: column;
+}
+.changepassword {
+  margin-top: 36px;
+}
+.form-btn-password {
+  width: 20px;
+}
+#changePassword {
+  background-color: #00abc5c0;
+}
+#newuser {
+  margin-top: 44px;
+  margin-left: 200px;
+}
+.employeeField {
+  margin-top: 30px;
+  margin-left: 200px;
+}
